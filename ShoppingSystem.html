@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping System</title>
+</head>
+<body>
+    <script>
+        var itemName = prompt("Enter item: ");
+        var itemPrice = prompt("Enter Price: ");
+        var itemQuantity = prompt("Enter quantity: ");
+        var discount = 0.15;
+        totalPurchase = parseInt(itemPrice) * parseInt(itemQuantity);
+
+        if (totalPurchase>20000) {
+            netCost = parseFloat(discount)*parseFloat(totalPurchase);
+            alert(netCost);
+        }
+    </script>
+</body>
+</html>
